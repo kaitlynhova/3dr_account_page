@@ -1,0 +1,277 @@
+/* GENERAL STYLES*/
+
+ul{
+  list-style: none;
+  -webkit-padding-start: 0px;
+}
+
+.row {
+   margin-right: 0px;
+   margin-left: 0px;
+}
+
+a
+{
+  color: white;
+}
+
+a :hover
+{
+  color: white !important;
+  opacity: .7;
+  text-decoration: none;
+}
+
+/* HEADER STYLES */
+.top-brand{
+  max-width: 70px;
+  position: relative;
+  top: -4px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: black;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: white;
+  background-color: black;
+}
+
+.navbar-default {
+  background-color: black;
+  border-color: black;
+  border-radius: 0;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+#product-list{
+  display: none;
+  background: black;
+  padding: 50px;
+
+}
+
+/* CONTENT STYLE */
+#content{
+  height: 500px;
+}
+
+/* FOOTER STYLES */
+
+footer{
+  background: black;
+  color: white;
+  padding: 70px;
+}
+
+footer ul{
+  padding-bottom: 50px;
+}
+
+
+
+
+/* HOME PAGE STYLES*/
+
+/* HERO STYLES */
+
+#hero{
+  background: black;
+  padding-bottom: 75px;
+}
+
+#hero .solo {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 450px;
+}
+
+#hero .title{
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 200px;
+}
+
+#hero .buy-now{
+  text-align: center;
+  color: white;
+  border: 1px solid white;
+  width: 1000%;
+  max-width: 185px;
+  padding: 20px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  transition: .5s;
+}
+
+#hero .buy-now:hover{
+  background: #85c441;
+  border: 1px solid #85c441;
+
+}
+
+/* CATEGORY STYLES */
+
+#categories{
+  color: white;
+  background: black;
+  text-align: center;
+}
+
+#categories h3{
+  position: relative;
+  top: 45%;
+}
+
+a .diy-area{
+  color:white !important;
+  transition: .5s;
+}
+
+.diy-area{
+  background-image: url('../images/X8.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+.category:hover{
+  opacity: .7;
+}
+
+a .parts-area{
+  color:white !important;
+  transition: .5s;
+}
+.parts-area{
+  background-image: url('../images/parts.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+a .merch-area{
+  color:white !important;
+  transition: .5s;
+}
+
+.merch-area{
+  background-image: url('../images/shirt.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+a .clearance-area{
+  color:white !important;
+  transition: .5s;
+}
+
+.clearance-area{
+  background-image: url('../images/unnamed.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+
+/* PRODUCT PAGE STYLES!!!! */
+
+#product-hero{
+  background:#eee;
+  padding-bottom:50px;
+}
+
+.carousel-control {
+  padding-top:10%;
+  width:5%;
+}
+
+#product-hero .product-name{
+  border-bottom: 2px solid black;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  margin-top: 100px;
+  letter-spacing: 2px;
+}
+
+.product-image{
+  width: 100%;
+}
+
+.buy-meow {
+  color: white;
+  background: #333333;
+  padding: 17px;
+  max-width: 111px;
+  transition: .5s;
+}
+
+.buy-meow a {
+  color: white;
+  text-decoration: none;
+}
+
+.buy-meow:hover {
+  opacity: .7;
+  text-decoration-color: transparent !important;
+}
+
+.availability{
+  padding-bottom: 20px;
+}
+
+.no-underline{
+  text-decoration: none !important;
+}
+
+/*PRODUCT DESCRIPTION STYLES */
+
+.gray-title{
+  color: gray;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#product-description{
+  padding-top: 50px;
+}
+
+.product-description-image{
+  width: 100%;
+  padding-top: 70px;
+}
+
+.half-controller{
+  background-image: url('../product-images/controller-full-width.jpg');
+  height: 500px;
+  background-position: -808px 0px;
+  background-repeat: no-repeat;
+}
+
+/* SEARCH RESULTS PAGE STYLES */
+
+.product-image{
+  width: 100%;
+}
+
+.center-text{
+  text-align: center;
+}
+
+
+/* MOBILE STYLES */
+
+@media screen and (max-width: 990px) {
+  #product-hero .product-name{
+        margin-top: 0px;
+    }
+}
